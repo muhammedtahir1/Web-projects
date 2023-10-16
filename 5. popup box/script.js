@@ -10,6 +10,9 @@ let closeBtn = document.querySelector('.close-icon')
 setTimeout(() => {
   box.style.display = 'block';
 
+  // filter: blur(16px);
+  document.querySelector('main').style.filter = 'blur(16px)';
+
 }, 2000)
 
 
@@ -19,4 +22,7 @@ setTimeout(() => {
 
 closeBtn.addEventListener('click', () => {
   box.style.display = 'none';
+
+  // 
+  document.querySelector('main').style.filter = 'blur(0px)';
 })

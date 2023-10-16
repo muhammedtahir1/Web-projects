@@ -5,7 +5,7 @@ let reset = document.getElementById("reset")
 let display = document.getElementById("display")
 let counter = 0
 
-btn1.addEventListener('click', ()=>{
+btn1.addEventListener('click', () => {
   // alert("hi")
   counter++
   // console.log(counter);
@@ -13,16 +13,22 @@ btn1.addEventListener('click', ()=>{
   display.innerHTML = counter
 
 
-} )
-
-btn2.addEventListener('click', ()=>{
-  counter--
-  // console.log(counter);
-
-  display.innerHTML = counter
 })
 
-reset.addEventListener('click', ()=> {
+btn2.addEventListener('click', () => {
+  counter--
+  // console.log(counter);
+  display.innerHTML = counter
+
+  // Don't know the logic yet
+
+  if (counter < 0) {
+    display.innerHTML = 0
+    counter++
+  }
+})
+
+reset.addEventListener('click', () => {
   counter = 0
 
   display.innerHTML = counter

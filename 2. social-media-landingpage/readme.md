@@ -1,11 +1,23 @@
-## Font used
+## Socail media landing page
+
+![final](assets/final.png)
+
+## Note:
+
+1. Need to work on it (to make different sections)
+2. make it mobile responsive
+3. Add more pages
+
+### Font used:
 
 Poppins
 
-## Color
+### Colors used:
 
-background color - #fcf9f6
-color - #212121
+#### Primary -
+
+1. background color - #fcf9f6
+2. color - #212121
 
 ## Website reference
 
